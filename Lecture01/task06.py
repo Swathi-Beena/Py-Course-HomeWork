@@ -1,0 +1,10 @@
+import random
+d1=random.randint(0,9)
+d2=random.randint(0,9)
+d3=random.randint(0,9)
+print(f"3-digit lock code:{d1}{d2}{d3}")
+digit1=random.randint(1,6)
+digit2=random.randint(1,6)
+digit3=random.randint(1,6)
+digit4=random.randint(1,6)
+print(f"4-digit lock code:{digit1}{digit2}{digit3}{digit4}")
